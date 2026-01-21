@@ -17,4 +17,13 @@ def nth_fibonacci(n):
 
 def is_prime(n):
     #Return true if 'n' is prime, otherwise returns false
-    #Code here
+    if n <= 3:
+        return True
+    if n % 2 == 0:
+        return False
+
+    limit = int(n**(1/2)) + 1
+    for i in range(3, limit, 2):
+        if n % i == 0:
+            return False
+    return True
