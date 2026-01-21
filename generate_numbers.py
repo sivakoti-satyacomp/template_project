@@ -51,4 +51,4 @@ def is_prime(n):
             return False
 
     return True
-print("is_prime(5)",is_prime(5))
+print("is_prime(5)",is_prime(5)) 
