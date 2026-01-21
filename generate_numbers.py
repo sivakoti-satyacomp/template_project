@@ -5,6 +5,8 @@ def natural_numbers(n):
 
 def nth_fibonacci(n):
     #Returns n-th fibonacci number
+    if n < 0:
+        raise ValueError("n must be a non-negative integer")
     if n <= 1:
         return n
     a, b = 0, 1
