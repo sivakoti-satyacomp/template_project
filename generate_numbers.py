@@ -1,12 +1,21 @@
 def natural_numbers(n):
-    #Returns the list of natural numbers
-    #Code here
+    l = []
+    for i in range(1,n+1):
+        l.append(i)
+    return(l)
 
 
 def nth_fibonacci(n):
-    #Returns n-th fibonacci number
-    #Code here
+    a, b = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
 
 def is_prime(n):
-    #Return true if 'n' is prime, otherwise returns false
-    #Code here
+    if n <= 1: return False
+    if n == 2: return True
+    if n % 2 == 0: return False
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
