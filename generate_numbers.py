@@ -1,6 +1,8 @@
 def natural_numbers(n):
-    #Returns the list of natural numbers
-    #Code here
+    i=0
+    while(i<n):
+        print(i)
+        i=i-1
 
 
 def nth_fibonacci(n):
