@@ -3,9 +3,9 @@ import math
 def get_number(n):
     while True:
         try:
-            return int(n)                       # Try to convert to integer
+            return int(n)                       # Try to convert to integer 
         except ValueError:
-            print("Please enter a valid(integer) number!")
+            print("Please enter a valid(integer) number")
             return 0
 
 def natural_numbers(n):                         # Returns the list of natural numbers
