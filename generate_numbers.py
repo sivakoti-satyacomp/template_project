@@ -1,3 +1,5 @@
+#all three features added
+
 def natural_numbers(n):
     #Returns the list of natural numbers
     return list(range(1, n+1))
