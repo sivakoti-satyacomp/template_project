@@ -1,6 +1,6 @@
 def natural_numbers(n):
     # Returns the list of natural numbers
-    pass
+    return list(range(1, n + 1))
 
 
 def nth_fibonacci(n):
@@ -18,3 +18,8 @@ def is_prime(n):
             return False
 
     return True
+
+
+# Test methods
+# print(natural_numbers(20))
+# print(is_prime(23))
