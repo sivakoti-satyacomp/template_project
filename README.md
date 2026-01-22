@@ -1,9 +1,16 @@
-# Template_project for collaboration
+def natural_numbers(n):
+    return list(range(1, n+1))
 
-### Follow the steps
+def nth_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a+b
+    return a
 
-- Clone this template project as local repo.
-- Create local branch like (xxxxx_feature).
-- Implement the `THREE` functions: _natural_numbers(n), nth_fibonacci(n)_ and _is_prime(n)_
-- Commit and push the code with new branch.
-- Finally open github interface and click on `"Compare & pull request"` .
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
