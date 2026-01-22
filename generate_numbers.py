@@ -8,5 +8,10 @@ def nth_fibonacci(n):
     #Code here
 
 def is_prime(n):
-    #Return true if 'n' is prime, otherwise returns false
-    #Code here
+    if n < 2:
+        return False
+    # Only need to check up to the square root of n
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
