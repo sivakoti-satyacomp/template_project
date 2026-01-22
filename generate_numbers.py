@@ -5,7 +5,19 @@ def natural_numbers(n):
 
 def nth_fibonacci(n):
     # Returns n-th fibonacci number
-    pass
+    if n <= 0:
+        return None
+    if n == 1:
+        return 0
+    if n == 2:
+        return 1
+
+    a = 0
+    b = 1
+
+    for i in range(n - 2):
+        a, b = b, a + b
+    return b
 
 
 def is_prime(n):
@@ -22,4 +34,5 @@ def is_prime(n):
 
 # Test methods
 # print(natural_numbers(20))
+# print(nth_fibonacci(5))
 # print(is_prime(23))
