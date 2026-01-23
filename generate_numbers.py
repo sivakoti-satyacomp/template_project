@@ -4,6 +4,7 @@ def natural_numbers(n):
     for i in range(1, n+1):
         numlist.append(i)
     return numlist    
+    
 def nth_fibonacci(n):
     #Returns n-th fibonacci number
     if n <= 1:
