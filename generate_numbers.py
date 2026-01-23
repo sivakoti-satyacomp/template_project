@@ -9,14 +9,14 @@ Original file is located at
 
 def natural_numbers(n):
     #Returns the list of natural numbers
-    #Code here
+
     if n <= 0:
         return []
     return list(range(1, n + 1))
 
 def nth_fibonacci(n):
     #Returns n-th fibonacci number
-    #Code here
+
     if n < 0:
         return None
     if n == 0:
@@ -31,7 +31,7 @@ def nth_fibonacci(n):
 
 def is_prime(n):
     #Return true if 'n' is prime, otherwise returns false
-    #Code here
+
     if n <= 1:
         return False
     if n == 2:
