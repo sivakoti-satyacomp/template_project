@@ -7,3 +7,9 @@
 - Implement the `THREE` functions: _natural_numbers(n), nth_fibonacci(n)_ and _is_prime(n)_
 - Commit and push the code with new branch.
 - Finally open github interface and click on `"Compare & pull request"` .
+## Contributor
+
+- Name: Akhil Shukla
+- Roll No: 24f2004582
+- Program: IIT Madras BS in Data Science
+
