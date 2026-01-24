@@ -4,12 +4,12 @@ def natural_numbers(n):
     for num in (range(1,n+1)):
         l.append(num)
     return l
-    #Code here
+    
 
 
 def nth_fibonacci(n):
     #Returns n-th fibonacci number
-    #Code here
+   
     if n <= 0:
         return None
     if n == 1:
@@ -23,8 +23,6 @@ def nth_fibonacci(n):
     return b
 
 def is_prime(n):
-    #Return true if 'n' is prime, otherwise returns false
-    #Code here
     if n <= 1:
         return False
 
