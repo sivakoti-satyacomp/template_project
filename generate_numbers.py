@@ -42,4 +42,4 @@ def is_prime(n):
         i += 6
 
     return True
-    #Returns True if 'n' is a prime number, else False
+    #Returns True if 'n' is a prime number, else False  
