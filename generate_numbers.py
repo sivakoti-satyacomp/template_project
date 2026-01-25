@@ -1,6 +1,9 @@
 # list of first n natural numbers
 def natural_numbers(n):
-    return list(range(1, n + 1))
+    nat_list = []
+    for i in range(1, n + 1):
+        nat_list.append(i)
+    return nat_list
 # nth fibonacci number
 def nth_fibonacci(n):
     if n == 1:
