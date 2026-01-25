@@ -10,3 +10,4 @@ def nth_fibonacci(n):
 def is_prime(n):
     #Return true if 'n' is prime, otherwise returns false
     #Code here
+# Contributor: Bedosi Bidita Panda (24f2009226)
